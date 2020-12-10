@@ -8,7 +8,11 @@ function getImage() {
         .catch(error => alert('Something went wrong. Try again later'));
 }
 
-
+function getAmountOfImages() {
+    
+    let imgAmount = document.getElementById('amount').value;
+    console.log(imgAmount);
+}
 
 
 
@@ -16,6 +20,7 @@ function handleSubmit() {
     $('form').submit(event => {
         event.preventDefault();
         getImage();
+        getAmountOfImages();
     })
 };
 
