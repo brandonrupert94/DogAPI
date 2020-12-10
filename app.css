@@ -1,10 +1,11 @@
 h1{
-    border: 2px solid black;
     text-align: center;
+    color: indigo;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 main {
     max-width: 800px;
@@ -12,4 +13,21 @@ main {
     margin-right: auto;
     align-items: center;
     text-align: center;
+}
+form {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#amount {
+    background-color: khaki;
+    max-width: 60px;
+    
+}
+input {
+    max-width: 70px;
 }
